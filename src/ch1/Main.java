@@ -10,7 +10,7 @@ public class Main {
 		bookArr.add("모던 자바스크립트 DeepDive");
 		bookArr.add("소플의 리액트");
 		bookArr.add("자바스크립트 객체 지향");
-		bookArr.add("성경");
+		bookArr.add("실전리액트 프로그래밍");
 		
 		int leng = bookArr.size();
 		
