@@ -30,7 +30,7 @@ public class Main {
 //		traygoogle.add(traygoogle);
 
 		Tray traysearch = factory.createTray("검색");
-//		traysearch.add(traygoogle);
+//		traysearch.add(traygoogle); 
 		traysearch.add(naver);
 		traysearch.add(daum);
 
