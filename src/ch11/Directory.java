@@ -2,6 +2,8 @@ package ch11;
 
 import java.util.*;
 
+import ch13.Visitor;
+
 public class Directory extends Entry{
 	private String name;
 	private ArrayList directory = new ArrayList();
@@ -38,6 +40,5 @@ public class Directory extends Entry{
 			Entry entry = (Entry) it.next();
 			entry.printList(prefix+"/"+name);
 		}
-	}
-
+	}	
 }

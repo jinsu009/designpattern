@@ -15,7 +15,7 @@ public class Main {
 			rootdir.add(usrdir);
 			binddir.add(new File("vi", 10000));
 			binddir.add(new File("latex", 20000));
-
+		
 			System.out.println("");
 			System.out.println("Making root entries..");
 			Directory Kim = new Directory("Kim");
@@ -30,7 +30,8 @@ public class Main {
 			Park.add(new File("game.doc",400));
 			Park.add(new File("junk.mail",500));
 			rootdir.printList();
-
+			
+			
 		}catch(FileTreatmentException e){
 			e.printStackTrace();
 		}

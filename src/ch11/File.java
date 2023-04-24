@@ -1,5 +1,7 @@
 package ch11;
 
+import ch13.Visitor;
+
 public class File extends Entry{
 	private String name;
 	private int size;
@@ -25,6 +27,5 @@ public class File extends Entry{
 		System.out.println(prefix+"/"+this);
 		// prefix + "/" + this.toStirng();
 		// prefix + "/" + toString()
-	}
-
+	}	
 }
