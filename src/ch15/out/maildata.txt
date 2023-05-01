@@ -1,0 +1,3 @@
+sujin@naver.com=Sujin
+type@daum.com=daum
+bird@gmail.com=bird
