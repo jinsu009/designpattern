@@ -6,9 +6,11 @@ import java.io.Writer;
 public class HtmlWriter {
 
 	private Writer writer;
+	
 	public HtmlWriter(Writer wri) {
 		this.writer = wri;
 	}
+	
 	public void title(String title) throws IOException{
 		writer.write("<html>");
 		writer.write("<head>");
@@ -29,7 +31,7 @@ public class HtmlWriter {
 	public void close() throws IOException{
 		writer.write("</body>");
 		writer.write("</html>\n");
-		writer.write("");
+		writer.close();
 	}
 	
 }

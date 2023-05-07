@@ -1,0 +1,25 @@
+package ch16;
+
+import java.awt.Button;
+
+public class ColleagueButton extends Button implements Colleague{
+	
+	private Mediator mediator;
+	
+	public ColleagueButton(String caption) {
+		super(caption);		
+	}
+
+	@Override
+	public void setMeditor(Mediator mediator) {
+		// TODO Auto-generated method stub
+		this.mediator = mediator;
+	}
+
+	@Override
+	public void setColleagueEnabled(boolean enabled) {
+		// TODO Auto-generated method stub
+		setEnabled(enabled);
+	}
+
+}

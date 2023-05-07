@@ -27,7 +27,4 @@ public class PageMaker {
 			e.printStackTrace();
 		}
 	}
-	
-	
-
 }
